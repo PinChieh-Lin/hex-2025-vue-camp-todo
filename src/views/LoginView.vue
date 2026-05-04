@@ -20,7 +20,8 @@
           <input class="formControls_input" type="password" name="pwd" id="pwd" placeholder="請輸入密碼" required>
           <input class="formControls_btnSubmit" type="button" onclick="javascript:location.href='#todoListPage'"
             value="登入">
-          <a class="formControls_btnLink" href="#signUpPage">註冊帳號</a>
+          <a class="formControls_btnLink" href="#/register">
+            註冊帳號</a>
         </form>
       </div>
     </div>
