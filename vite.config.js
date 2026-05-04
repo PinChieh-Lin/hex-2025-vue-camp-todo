@@ -10,7 +10,8 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: '/hex-2025-vue-camp-todo/', // 或 '/你的repo名稱/'，依據你的部署位置
+  // base: '/hex-2025-vue-camp-todo/', // 或 '/你的repo名稱/'，依據你的部署位置
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
